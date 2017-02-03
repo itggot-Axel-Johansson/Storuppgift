@@ -1,0 +1,51 @@
+.notanscointainer {
+}
+p, a, h1, h2, h3 {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #DFDFDF;
+}
+
+a:hover {
+    color: white;
+}
+#text {
+    font-size: larger;
+}
+.notansheader {
+    display: flex;
+    flex-direction: column;
+    background-color: #3F51B5;
+}
+.notansheader2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid black 1 px;
+}
+.notansnav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #DFDFDF;
+    padding-bottom: 10px;
+}
+.bluesmarttooth {
+    padding-top: 5px;
+    font-size: medium;
+}
+#demo-menu-lower-left {
+
+}
+#demo-menu-lower-right {
+
+}
+@media screen
+and (device-width : 360px)
+and (device-height : 640px)
+and (orientation : portrait)
+and (-webkit-device-pixel-ratio: 3) {
+
+}
+
