@@ -5,7 +5,19 @@ p, a, h1, h2, h3 {
     text-decoration: none;
     color: #DFDFDF;
 }
-
+.menybilden {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+div.notansmenyefter {
+    display: block;
+    width: 100px;
+    height:100px;
+    border: solid black 1px;
+}
+div.notansmeny {
+    display: none;
+}
 a:hover {
     color: white;
 }
@@ -33,13 +45,34 @@ a:hover {
 }
 .bluesmarttooth {
     padding-top: 5px;
-    font-size: medium;
+    font-size: 20px;
 }
 #demo-menu-lower-left {
 
 }
 #demo-menu-lower-right {
 
+}
+div.innan {
+    display: flex;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+div.efter {
+    display: none;
+}
+.notanslista {
+    align-content:
+    background-color: white;
+    color:#95989A;
+    list-style: none;
+    border:solid black 1px;
+    width: 20%;
+}
+.notanssoptipp {
+    display: flex;
+    justify-content: space-between;
 }
 @media screen
 and (device-width : 360px)
